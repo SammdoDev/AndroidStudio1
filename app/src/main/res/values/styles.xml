@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomSpinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/spinner_background</item> <!-- Terapkan background dengan border -->
+        <item name="android:textColor">@color/black</item> <!-- Warna teks -->
+    </style>
+</resources>

@@ -1,0 +1,116 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#DCFFFFFF"
+    tools:context=".RelativeActivity">
+
+    <ImageView
+        android:id="@+id/logosmkn6"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/smkn6logo" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_below="@id/logosmkn6"
+        android:textSize="20dp"
+        android:text="Halaman Login"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/emailtext"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"
+        android:layout_below="@id/logosmkn6"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/emailtext"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/personemail"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/rounded"
+        android:hint="Masukkan Email"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:id="@+id/passwordtext"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+        android:layout_below="@id/email"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:hint="Masukkan Password"
+        android:layout_below="@id/passwordtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/lockemail"
+        android:inputType="textPassword" />
+
+    <RadioButton
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/password"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="-1dp"
+        android:text="Remember me"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/password"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="17dp"
+        android:text="Forgot Password?"
+        android:textColor="#0679D3"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/password"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:text=" Or login with"
+        android:layout_centerHorizontal="true"
+        android:textColor="#C5C3C3"
+        android:layout_marginTop="570dp"/>
+</RelativeLayout>

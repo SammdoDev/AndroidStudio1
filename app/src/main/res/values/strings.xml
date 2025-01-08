@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">Aplikasi Multifungsi</string>
+    <array name="jurusan">
+        <item>Akutansi</item>
+        <item>Perkantoran</item>
+        <item>Pariwisata</item>
+        <item>Pemasaran</item>
+        <item>Multimedia</item>
+        <item>Broadcasting</item>
+        <item>Pemrograman</item>
+    </array>
+    <array name="spinnermtk">
+        <item>Tambah</item>
+        <item>Kurang</item>
+        <item>Kali</item>
+        <item>Bagi</item>
+    </array>
+    <array name="suhu">
+        <item>Celcius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </array>
+</resources>
